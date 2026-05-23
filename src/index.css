@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.theme-dark {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: #111; /* to avoid un-inverted white edges */
+}
+
+.theme-dark body {
+  background-color: #111;
+}
+
+.theme-dark img,
+.theme-dark video,
+.theme-dark iframe,
+.theme-dark [style*="background-image"],
+.theme-dark [data-no-invert] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.theme-sepia {
+  filter: sepia(0.85);
+  background-color: #fcebd5 !important;
+}
+

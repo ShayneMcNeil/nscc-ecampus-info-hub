@@ -1,0 +1,8 @@
+{
+  "name": "NSCC eCampus Student Info Hub",
+  "description": "Information site for NSCC eCampus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
